@@ -53,8 +53,15 @@ font-weight: 700;
 }
 
 .contacts{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;  
   color: #434455;
   font-style: normal;
+}
+.contacts:hover, .contacts:focus{
+  color: #404bbf;
 }
 
 .banner{

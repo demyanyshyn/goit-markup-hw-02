@@ -70,21 +70,20 @@ background: #2e2f42;
 
 .banner-title{
 font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.02em;
-  color: #fff;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+color: #fff;
 }
 
 .banner-button{
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+background: #4d5ae5;
 }
 
 .banner-button:hover{
-  background: #404bbf;
+background: #404bbf;
 }
 
 .banner-button:focus {
-  background: #404bbf;
+background: #404bbf;
 }

@@ -2,19 +2,15 @@ body{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
     font-size: 16px;
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
-
     background: #fff;
 }
 
 a {
 text-decoration: none;
 font-size: 12px;
-
-/* line-height: 16px; */
 line-height: 1.33333;
 letter-spacing: 0.04em;
 
@@ -52,11 +48,36 @@ font-weight: 700;
   color: #404bbf;
 }
 
-.navigation:active {
+.navigation:focus {
   color: #404bbf;
 }
 
 .contacts{
   color: #434455;
   font-style: normal;
+}
+
+.banner{
+background: #2e2f42;
+}
+
+.banner-title{
+font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.banner-button{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.banner-button:hover{
+  background: #404bbf;
+}
+
+.banner-button:focus {
+  background: #404bbf;
 }
